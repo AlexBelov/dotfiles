@@ -1,0 +1,30 @@
+[global_config]
+  geometry_hinting = False
+  dbus = True
+  focus = mouse
+  borderless = True
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    login_shell = True
+    background_darkness = 0.88
+    background_type = transparent
+    background_image = None
+    show_titlebar = False
+    font = Monospace 12
+  [[presentation]]
+    use_system_font = False
+    font = Monospace 13
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      profile = default
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
